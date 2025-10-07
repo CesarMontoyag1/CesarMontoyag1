@@ -1,7 +1,7 @@
 
 
 
-https://raw.githubusercontent.com/CesarMontoyag1/CesarMontoyag1/output/github-contribution-grid-snake-with-name.svg
+![snake gif](https://github.com/CesarMontoyag1/CesarMontoyag1/blob/output/dist/snake.svg)
 
 <!--
 **CesarMontoyag1/CesarMontoyag1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
