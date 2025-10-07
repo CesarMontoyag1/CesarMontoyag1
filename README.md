@@ -19,9 +19,9 @@
 
 <!-- Snake Contributions Graph (rojo snake, contribuciones negro->gris) -->
 <div align="center">
-  <!-- Apunta a la rama `output` generada por la Action -->
-  ![snake gif](https://github.com/CesarMontoyag1/CesarMontoyag1/blob/output/dist/snake.svg)
+  <img src="https://github.com/CesarMontoyag1/CesarMontoyag1/blob/output/dist/snake.svg" alt="snake" width="680" />
 </div>
+
 
 ---
 
@@ -74,7 +74,7 @@
 
 
 
-
+![snake gif](https://github.com/CesarMontoyag1/CesarMontoyag1/blob/output/dist/snake.svg)
 
 <!--
 **CesarMontoyag1/CesarMontoyag1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
