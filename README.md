@@ -16,7 +16,13 @@
 
 ---
 
-## 💻 About Me
+## Contributions
+
+<div align="center">
+  <img src="https://github.com/CesarMontoyag1/CesarMontoyag1/blob/output/dist/snake.svg" alt="snake" width="680" />
+</div>   
+
+## About Me
 
 <table width="100%">
   <tr>
@@ -28,16 +34,12 @@
         <li> 🤝 Open to collaborating on innovative IoT or C++/Python projects.</li>
         <li> 📧 Reach me at: <code>YOUR_EMAIL</code></li>
       </ul>
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github.com/CesarMontoyag1/CesarMontoyag1/blob/output/dist/snake.svg" alt="GitHub Activity Snake" width="90%" style="max-width:350px;"/>
-    </td>
   </tr>
 </table>
 
 ---
 
-## 🛠️ Technology Stack & Tools
+## Technology Stack & Tools
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cpp,py,js,react,html,css,linux,git,docker,vscode,arduino,firebase" alt="Technology Icons" style="margin-bottom: 10px;"/>
@@ -45,7 +47,7 @@
 
 ---
 
-## 📈 My GitHub Stats
+## My GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USER&show_icons=true&theme=dark&hide_border=true&count_private=true&line_height=25&title_color=D40A0A&icon_color=D40A0A&text_color=FFFFFF&bg_color=000000" alt="GitHub Stats" width="48%" />
@@ -60,7 +62,7 @@
 
 ---
 
-## 🔗 Let's Connect
+## Let's Connect
 
 <div align="center">
   <a href="mailto:YOUR_EMAIL">
