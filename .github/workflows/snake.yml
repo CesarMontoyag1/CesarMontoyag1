@@ -8,27 +8,53 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate GitHub contribution grid snake
-        uses: Platane/snk@v3
+      - name: Generate SVG-only snake with custom colors
+        # svg-only es más rápido si solo quieres SVG
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: CesarMontoyag1  # 👈 tu usuario real de GitHub
-          color_snake: "#BA0608"            # 👈 color de la serpiente (rojo)
-          color_dots: "#000000,#000000,#000000,#000000,#000000" # 👈 colores de los puntos
+          github_user_name: CesarMontoyag1
+          # NOTA: pasamos los colores vía outputs query string (más fiable)
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg
+            dist/snake.svg?color_snake=%23BA0608&color_dots=%23000000,%23333333,%23666666,%23999999,%23CCCCCC
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Create final SVG with title "CESAR MONTOYA"
+        # pequeña manipulación para insertar un texto arriba del svg
+        run: |
+          python - <<'PY'
+          import io,sys
+          fn = "dist/snake.svg"
+          out = "dist/github-contribution-grid-snake-with-name.svg"
+          with open(fn, "r", encoding="utf-8") as f:
+              s = f.read()
+          # encuentra el cierre de la etiqueta <svg ...>
+          idx = s.find('>') + 1
+          text_svg = (
+            '<g id=\"header\">'
+            '<text x=\"50%\" y=\"36\" font-size=\"28\" font-family=\"Arial, Helvetica, sans-serif\" '
+            'text-anchor=\"middle\" fill=\"#BA0608\" font-weight=\"700\">CESAR MONTOYA</text>'
+            '</g>\n'
+          )
+          if idx <= 0:
+              print("No se encontró etiqueta <svg>, abortando", file=sys.stderr); sys.exit(1)
+          new = s[:idx] + text_svg + s[idx:]
+          with open(out, "w", encoding="utf-8") as f:
+              f.write(new)
+          print("Creado:", out)
+          PY
+
+      - name: Commit and push generated assets to branch output
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          target_branch: output
-          build_dir: dist
+          commit_message: "chore(snake): update generated snake and with-name svg"
+          file_pattern: "dist/**"
+          branch: output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
