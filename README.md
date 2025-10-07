@@ -30,7 +30,7 @@
       </ul>
     </td>
     <td width="50%" align="center">
-      <img src="https://github.com/YOUR_GITHUB_USER/YOUR_GITHUB_USER/blob/output/dist/snake.svg" alt="GitHub Activity Snake" width="90%" style="max-width:350px;"/>
+      <img src="https://github.com/CesarMontoyag1/CesarMontoyag1/blob/output/dist/snake.svg" alt="GitHub Activity Snake" width="90%" style="max-width:350px;"/>
     </td>
   </tr>
 </table>
