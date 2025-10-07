@@ -1,0 +1,87 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"    # Cada día a medianoche (UTC)
+  workflow_dispatch:      # Permite ejecuciones manuales
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate SVG-only snake with custom colors
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: CesarMontoyag1
+          outputs: |
+            dist/snake.svg?color_snake=%23BA0608&color_dots=%23000000,%23333333,%23666666,%23999999,%23CCCCCC
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create final SVG with title "CESAR MONTOYA"
+        run: |
+          python - <<'PY'
+          import sys, os
+          fn = "dist/snake.svg"
+          out = "dist/github-contribution-grid-snake-with-name.svg"
+          if not os.path.exists(fn):
+              print("ERROR: no existe", fn)
+              sys.exit(1)
+          with open(fn, "r", encoding="utf-8") as f:
+              s = f.read()
+          # Inserta texto después de la apertura <svg ...>
+          idx = s.find('>') + 1
+          text_svg = (
+            '<g id=\"header\">'
+            '<text x=\"50%\" y=\"36\" font-size=\"28\" font-family=\"Arial, Helvetica, sans-serif\" '
+            'text-anchor=\"middle\" fill=\"#BA0608\" font-weight=\"700\">CESAR MONTOYA</text>'
+            '</g>\n'
+          )
+          if idx <= 0:
+              print("No se encontró etiqueta <svg>, abortando", file=sys.stderr); sys.exit(1)
+          new = s[:idx] + text_svg + s[idx:]
+          with open(out, "w", encoding="utf-8") as f:
+              f.write(new)
+          print("Creado:", out)
+          PY
+
+      - name: Push generated assets to branch output (safe)
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # guarda los archivos generados en temporal para evitar conflictos con checkout
+          mkdir -p /tmp/snake_dist
+          if [ -d "dist" ]; then
+            mv dist/* /tmp/snake_dist/ || true
+          fi
+
+          # trae la rama output si existe
+          git fetch origin output || true
+
+          # cambia a la rama output si existe, sino créala
+          if git ls-remote --exit-code --heads origin output >/dev/null 2>&1; then
+            git checkout output
+          else
+            git checkout -b output
+          fi
+
+          # limpia dist y copia los archivos generados
+          rm -rf dist || true
+          mkdir -p dist
+          mv /tmp/snake_dist/* dist/ || true
+
+          # agrega y commitea si hay cambios
+          git add dist || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(snake): update generated snake and with-name svg"
+            git push origin output
+          fi
