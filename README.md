@@ -1,94 +1,80 @@
-<!-- divider -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="Divider" />
 </p>
 
-<!-- Animated welcome message (color rojo) -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto&weight=900&size=40&vCenter=true&width=700&height=70&duration=4000&color=BA0608&lines=¡Hola!+Soy+CESAR+MONTOYA+👋;Desarrollador+|+IoT+|+Ciencia+de+la+Computación" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto&weight=900&size=40&vCenter=true&width=750&height=70&duration=4000&color=D40A0A&lines=Hello!+I'm+CESAR+MONTOYA+👋;Computer+Science+Student+|+IoT+Developer" />
 </div>
 
-<div align="center" style="margin-top:8px;">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto&weight=700&size=26&vCenter=true&width=420&height=40&duration=3500&color=FFFFFF&lines=@TU_USUARIO" />
+<div align="center" style="margin-top:10px;">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto&weight=700&size=28&vCenter=true&width=350&height=40&duration=3000&color=FFFFFF&lines=@YOUR_GITHUB_USER" />
 </div>
 
-<!-- Personal Quote -->
 <h4 align="center">
-  <em style="color:#BBBBBB">"Aprender, crear y compartir — esa es la idea"</em>
+  <em style="color:#A0A0A0">"Learn, build, and share — that's the idea."</em>
 </h4>
 
-<!-- Snake Contributions Graph (rojo snake, contribuciones negro->gris) -->
+---
+
+## 💻 About Me
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="left">
+      <ul>
+        <li> 🎓 Studying <strong>Computer Science</strong> and passionate about <strong>IoT</strong> (ESP32, embedded systems).</li>
+        <li> 🚀 My go-to languages are <strong>C++</strong>, <strong>Python</strong>, and <strong>JavaScript</strong>.</li>
+        <li> 🎯 Currently focused on strengthening my skills in <strong>backend</strong> and <strong>distributed systems</strong>.</li>
+        <li> 🤝 Open to collaborating on innovative IoT or C++/Python projects.</li>
+        <li> 📧 Reach me at: <code>YOUR_EMAIL</code></li>
+      </ul>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github.com/YOUR_GITHUB_USER/YOUR_GITHUB_USER/blob/output/dist/snake.svg" alt="GitHub Activity Snake" width="90%" style="max-width:350px;"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Technology Stack & Tools
+
 <div align="center">
-  <img src="https://github.com/CesarMontoyag1/CesarMontoyag1/blob/output/dist/snake.svg" alt="snake" width="680" />
+  <img src="https://skillicons.dev/icons?i=cpp,py,js,react,html,css,linux,git,docker,vscode,arduino,firebase" alt="Technology Icons" style="margin-bottom: 10px;"/>
+</div>
+
+---
+
+## 📈 My GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USER&show_icons=true&theme=dark&hide_border=true&count_private=true&line_height=25&title_color=D40A0A&icon_color=D40A0A&text_color=FFFFFF&bg_color=000000" alt="GitHub Stats" width="48%" />
+  &nbsp; &nbsp; 
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USER&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&stroke=D40A0A&background=000000&ring=D40A0A&fire=D40A0A" alt="GitHub Streak" width="48%" />
+</div>
+<br>
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USER&layout=compact&langs_count=6&theme=dark&hide_border=true&title_color=D40A0A&icon_color=D40A0A&text_color=FFFFFF&bg_color=000000" alt="Top Languages" width="48%" />
 </div>
 
 
 ---
 
-### 👨‍💻 Sobre mí
-
-- Estudiante de **Ciencias de la Computación** y entusiasta de IoT (ESP32, electrónica).
-- Me gusta programar en **C++**, **Python**, **JavaScript** y trabajar con hardware.
-- 🎯 Actualmente mejorando proyectos personales y aprendiendo backend/distribuidos.
-- ✉️ Contacto: `tu-email@example.com`
-
----
-
-### 🛠️ Tecnologías & Herramientas
+## 🔗 Let's Connect
 
 <div align="center">
-  <img width="560px" src="https://skillicons.dev/icons?i=cpp,py,js,html,css,react,git,linux,vscode" alt="tech icons" />
-</div>
-
----
-
-### 📈 Mis estadísticas (tema oscuro)
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=dark&hide_border=true&count_private=true" />
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TU_USUARIO&theme=dark&hide_border=true" />
-</div>
-
----
-
-### 🚀 Conecta conmigo
-
-<div align="center">
-  <a href="mailto:tu-email@example.com">
-    <img align="center" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" height="30" width="30" />
+  <a href="mailto:YOUR_EMAIL">
+    <img align="center" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" height="35" width="35" style="margin: 0 10px;" />
   </a>
-  <a href="https://www.linkedin.com/in/TU_LINKEDIN/">
-    <img align="center" src="https://raw.githubusercontent.com/SubhadeepZilong/SubhadeepZilong/main/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="30" />
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
+    <img align="center" src="https://raw.githubusercontent.com/SubhadeepZilong/SubhadeepZilong/main/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="35" width="35" style="margin: 0 10px; filter: grayscale(100%) brightness(200%) invert(0%);"/> </a>
+  <a href="https://www.instagram.com/YOUR_INSTAGRAM/">
+    <img align="center" src="https://raw.githubusercontent.com/SubhadeepZilong/SubhadeepZilong/main/icons/Social/instagram.svg" alt="Instagram" height="35" width="35" style="margin: 0 10px; filter: grayscale(100%) brightness(200%) invert(0%);"/>
   </a>
-  <a href="https://www.instagram.com/TU_INSTAGRAM/">
-    <img align="center" src="https://raw.githubusercontent.com/SubhadeepZilong/SubhadeepZilong/main/icons/Social/instagram.svg" alt="Instagram" height="30" width="30" />
-  </a>
-</div>
+  </div>
 
 ---
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="Divider" />
 </p>
-
-
-
-![snake gif](https://github.com/CesarMontoyag1/CesarMontoyag1/blob/output/dist/snake.svg)
-
-<!--
-**CesarMontoyag1/CesarMontoyag1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-https://raw.githubusercontent.com/CesarMontoyag1/CesarMontoyag1/output/github-contribution-grid-snake-with-name.svg
-
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
