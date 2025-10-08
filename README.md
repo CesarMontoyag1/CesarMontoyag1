@@ -1,4 +1,4 @@
-
+---
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&size=25&duration=6000&pause=1500&color=F70000&center=true&width=435&lines=Hi%2C+I'm+Cesar+Montoya+;Computer+Science+student+at+EAFIT" alt="Typing SVG" />
@@ -25,11 +25,11 @@
   <tr>
     <td width="50%" align="left">
       <ul>
-        <li> 🎓 Studying <strong>Computer Science</strong> and passionate about <strong>IoT</strong> (ESP32, embedded systems).</li>
-        <li> 🚀 My go-to languages are <strong>C++</strong>, <strong>Python</strong>, and <strong>JavaScript</strong>.</li>
-        <li> 🎯 Currently focused on strengthening my skills in <strong>backend</strong> and <strong>distributed systems</strong>.</li>
-        <li> 🤝 Open to collaborating on innovative IoT or C++/Python projects.</li>
-        <li> 📧 Reach me at: <code>YOUR_EMAIL</code></li>
+        <li>  Studying <strong>Computer Science at EAFIT</strong> and passionate about <strong>backend, front end, web programming, applications, databases and IA </strong></li>
+        <li>  My go-to languages are <strong>Java</strong>, <strong>Python</strong>, <strong>JavaScript</strong> and <strong>C++</strong>.</li>
+        <li>  Currently focused on strengthening my skills in <strong>backend</strong> and <strong>UIX</strong>.</li>
+        <li>  Open to collaborating on innovative web applications or applications in Java/Python projects.</li>
+        <li>  Reach me at: <code>cesar.a.montoya.g11@gmail.com</code></li>
       </ul>
   </tr>
 </table>
@@ -61,19 +61,6 @@
 
 ## Let's Connect
 
-<div align="center">
-  <a href="mailto:YOUR_EMAIL">
-    <img align="center" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" height="35" width="35" style="margin: 0 10px;" />
-  </a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
-    <img align="center" src="https://raw.githubusercontent.com/SubhadeepZilong/SubhadeepZilong/main/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="35" width="35" style="margin: 0 10px; filter: grayscale(100%) brightness(200%) invert(0%);"/> </a>
-  <a href="https://www.instagram.com/YOUR_INSTAGRAM/">
-    <img align="center" src="https://raw.githubusercontent.com/SubhadeepZilong/SubhadeepZilong/main/icons/Social/instagram.svg" alt="Instagram" height="35" width="35" style="margin: 0 10px; filter: grayscale(100%) brightness(200%) invert(0%);"/>
-  </a>
-  </div>
+
 
 ---
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="Divider" />
-</p>
