@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="Divider" />
+  <img src="https://media.tenor.com/tHn0y01qV88AAAAC/red-line.gif" alt="Red Divider" />
 </p>
 
 <div align="center">
@@ -11,7 +11,7 @@
 </div>
 
 <h4 align="center">
-  <em style="color:#A0A0A0">"Learn, build, and share — that's the idea."</em>
+  <em style="color:#A0A0A0">"If you can imagine it, you can program it."</em>
 </h4>
 
 ---
