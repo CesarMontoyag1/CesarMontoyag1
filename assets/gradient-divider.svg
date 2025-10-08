@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 6" preserveAspectRatio="none" width="100%" height="6">
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1000 4"
+     preserveAspectRatio="none"
+     width="100%" height="4" role="img" aria-label="Gradient divider">
   <defs>
+    <!-- gradiente rojo -> negro -->
     <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0%" stop-color="#FF3B3B"/>
-      <stop offset="35%" stop-color="#D40A0A"/>
+      <stop offset="0%"  stop-color="#D40A0A"/>
       <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
+
+    <!-- patrón repetible: el ancho del bloque (200) determina el 'tile' que se desplaza -->
+    <pattern id="p" patternUnits="userSpaceOnUse" width="200" height="4" patternTransform="translate(0,0)">
+      <rect width="200" height="4" fill="url(#g)" />
+      <!-- animación que desplaza el patrón; al repetir el tile no hay huecos -->
+      <animateTransform attributeName="patternTransform"
+                        type="translate"
+                        from="0 0"
+                        to="200 0"
+                        dur="1.8s"
+                        repeatCount="indefinite" />
+    </pattern>
   </defs>
 
-  <!-- Fondo transparente / para mantener altura -->
-  <rect width="800" height="6" fill="transparent"/>
-
-  <!-- Franja con gradiente móvil -->
-  <rect x="-400" y="0" width="400" height="6" fill="url(#g)">
-    <!-- anima la franja de izquierda a derecha; repeatCount=indefinite -->
-    <animate attributeName="x" from="-400" to="800" dur="2s" repeatCount="indefinite" />
-  </rect>
+  <!-- único rect que cubre TODO el ancho y se rellena con el pattern en movimiento -->
+  <rect x="0" y="0" width="100%" height="4" fill="url(#p)" />
 </svg>
