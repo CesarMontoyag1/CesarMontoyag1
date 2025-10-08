@@ -11,7 +11,7 @@
     </linearGradient>
 
     <!-- patrón repetible: el ancho del bloque (200) determina el 'tile' que se desplaza -->
-    <pattern id="p" patternUnits="userSpaceOnUse" width="200" height="4" patternTransform="translate(0,0)">
+    <pattern id="p" patternUnits="userSpaceOnUse" width="8000" height="4" patternTransform="translate(0,0)">
       <rect width="200" height="4" fill="url(#g)" />
       <!-- animación que desplaza el patrón; al repetir el tile no hay huecos -->
       <animateTransform attributeName="patternTransform"
