@@ -1,8 +1,7 @@
-<p align="center">
-  <img src="https://media.tenor.com/tHn0y01qV88AAAAC/red-line.gif" alt="Red Divider" />
-</p>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&size=25&duration=6000&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Cesar+Montoya+;Computer+Science+student+at+EAFIT" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&size=25&duration=6000&pause=1500&color=F70000&center=true&width=435&lines=Hi%2C+I'm+Cesar+Montoya+;Computer+Science+student+at+EAFIT" alt="Typing SVG" /></a>
+
+
 
 <h4 align="center">
   <em style="color:#A0A0A0">"If you can imagine it, you can program it."</em>
