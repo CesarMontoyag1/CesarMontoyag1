@@ -32,7 +32,7 @@
                         type="translate"
                         from="0 0"
                         to="1000 0"
-                        dur="2s"
+                        dur="7s"
                         repeatCount="indefinite" />
     </pattern>
   </defs>
