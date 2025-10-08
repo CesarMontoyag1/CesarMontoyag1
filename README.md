@@ -2,13 +2,7 @@
   <img src="https://media.tenor.com/tHn0y01qV88AAAAC/red-line.gif" alt="Red Divider" />
 </p>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto&weight=900&size=40&vCenter=true&width=750&height=70&duration=4000&color=D40A0A&lines=Hello!+I'm+CESAR+MONTOYA+👋;Computer+Science+Student+|+IoT+Developer" />
-</div>
-
-<div align="center" style="margin-top:10px;">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto&weight=700&size=28&vCenter=true&width=350&height=40&duration=3000&color=FFFFFF&lines=@YOUR_GITHUB_USER" />
-</div>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&size=25&duration=6000&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Cesar+Montoya+;Computer+Science+student+at+EAFIT" alt="Typing SVG" /></a>
 
 <h4 align="center">
   <em style="color:#A0A0A0">"If you can imagine it, you can program it."</em>
