@@ -55,15 +55,26 @@
 ## My GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats-two-dun-tb6enep4je.vercel.app/api?username=CesarMontoyag1&show_icons=true&theme=dark&hide_border=true&count_private=true&line_height=25&title_color=D40A0A&icon_color=D40A0A&text_color=FFFFFF&bg_color=000000" alt="GitHub Stats" width="48%" />
-  &nbsp; &nbsp; 
-  <img src="https://streak-stats.demolab.com/?user=CesarMontoyag1&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&stroke=D40A0A&background=000000&ring=D40A0A&fire=D40A0A" alt="GitHub Streak" width="48%" />
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td>
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=CesarMontoyag1&show_icons=true&theme=dark&hide_border=true&count_private=true&line_height=25&title_color=D40A0A&icon_color=D40A0A&text_color=FFFFFF&bg_color=000000&card_width=400&card_height=200" alt="GitHub Stats" width="400" height="200" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=CesarMontoyag1&layout=compact&langs_count=6&theme=dark&hide_border=true&title_color=D40A0A&icon_color=D40A0A&text_color=FFFFFF&bg_color=000000&card_width=400&card_height=200" alt="Top Languages" width="400" height="200" />
+      </td>
+    </tr>
+  </table>
 </div>
 
-<br>
-
 <div align="center">
-  <img src="https://github-readme-stats-two-dun-tb6enep4je.vercel.app/api/top-langs/?username=CesarMontoyag1&layout=compact&langs_count=6&theme=dark&hide_border=true&title_color=D40A0A&icon_color=D40A0A&text_color=FFFFFF&bg_color=000000" alt="Top Languages" width="48%" />
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td>
+        <img src="https://streak-stats.demolab.com?user=CesarMontoyag1&theme=dark&hide_border=true&background=000000&stroke=D40A0A&ring=D40A0A&fire=D40A0A&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" alt="GitHub Streak" width="600" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
